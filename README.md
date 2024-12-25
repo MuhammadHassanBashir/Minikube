@@ -13,5 +13,38 @@ remember: minikube ki installation sa phily apky ps vm/localsystem ma docker ins
 - You can also open kubernetes dashboard with command **minikube dashboard  or minikube dashboard --url**. One will open the dashboard directory or other will give you the dashboard url. Use this url to get the dashboard
 - Also download **kubectl** with **minikube kubectl -- get po -A**
 - for alaise **alias kubectl="minikube kubectl --"**
+- for stopping the cluster **minikube stop**
+
+
+## Manage your cluster
+  
+  Pause Kubernetes without impacting deployed applications:
+  
+  **minikube pause**
+
+  Unpause a paused instance:
+  
+  **minikube unpause**
+  
+  Halt the cluster:
+  
+  **minikube stop**
+  
+ Change the default memory limit (requires a restart):
+  
+  **minikube config set memory 9001**
+  
+  Browse the catalog of easily installed Kubernetes services:
+  
+  **minikube addons list**
+  
+  Create a second cluster running an older Kubernetes release:
+  
+  **minikube start -p aged --kubernetes-version=v1.16.1**
+  
+  Delete all of the minikube clusters:
+  
+  **minikube delete --all**
+  
  
 
