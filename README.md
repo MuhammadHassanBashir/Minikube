@@ -11,3 +11,6 @@ remember: minikube ki installation sa phily apky ps vm/localsystem ma docker ins
 
 - Verify the minikube cluster once it get started with this command **minikube status**.
 - You can also open kubernetes dashboard with command **minikube dashboard  or minikube dashboard --url**. One will open the dashboard directory or other will give you the dashboard url. Use this url to get the dashboard
+- Also download **kubectl** with **minikube kubectl -- get po -A**
+ 
+
