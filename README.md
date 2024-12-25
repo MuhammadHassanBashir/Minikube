@@ -9,4 +9,5 @@ for installing minikube on vm/local system follow above link..
 
 remember: minikube ki installation sa phily apky ps vm/localsystem ma docker install hona chahye, or apka user docker group add hona chahye.. other wise error aye ga.. at the time of **minikube start**.
 
-Verify the minikube cluster once it get started with this command **minikube status**.
+- Verify the minikube cluster once it get started with this command **minikube status**.
+- You can also open kubernetes dashboard with command **minikube dashboard  or minikube dashboard --url**. One will open the dashboard directory or other will give you the dashboard url. Use this url to get the dashboard
