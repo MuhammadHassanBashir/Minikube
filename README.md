@@ -6,3 +6,5 @@
 - But if you want to create cluster for developer or for testing application then you can create this with **minikube on single vm/localmachine** etc.
 
 for installing minikube on vm/local system follow above link..
+
+remember: minikube ki installation sa phily apky ps vm/localsystem ma docker install hona chahye, or apka user docker group add hona chahye.. other wise error aye ga.. at the time of **minikube start**.
